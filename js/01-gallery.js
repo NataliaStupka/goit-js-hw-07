@@ -25,9 +25,9 @@ galleryEl.insertAdjacentHTML('beforeend', createMarkup)
 
 
 // вешаю слушателя на предка (div)
-galleryEl.addEventListener('click', foo);
+galleryEl.addEventListener('click', onModal);
 
-function foo(event) {
+function onModal(event) {
     event.preventDefault();
 
     // модальное окно через basicLightbox
